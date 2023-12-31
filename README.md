@@ -1,6 +1,6 @@
 * README.md is written in KOREAN
 
-# 한울 프로젝트
+# 한울 프로젝트
 산업 현장의 위험 요소를 관리 및 모니터링하는 데이터 기반의 솔루션 프로젝트입니다.<br><br>
 
 # Pipeline Structure
@@ -14,7 +14,7 @@
 - FastAPI + uvicorn[standard] : ETL 프로세스 수행 & 경보 로직 수행 (LINE NOTI 경보 메세지 전송)
 
 ### Processing
-- Python & Pandas : MySQL 데이터 호출 및 .parquet 파일 생성
+- Python & Pandas : MySQL 데이터 호출 및 .parquet 파일 생성
 
 ### DL(Storage)
 - MySQL : information(회사 내부 정보 데이터베이스), measurement(센서 측정값 데이터 & 경보 데이터)
